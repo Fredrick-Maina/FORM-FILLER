@@ -27,5 +27,5 @@ Step 11: create index.html, formSubmitted.html and styles.css inside the publi f
 Step 12: Start MongoDB using mongod
      use command 'mongo' on another terminal
 
-Step 13: oppen your IDE/code editor, run the app and go to localhost
+Step 13: open your IDE/code editor, run the app and go to localhost
 
