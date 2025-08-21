@@ -1,0 +1,47 @@
+/* Full-page gradient background, font, and text color */
+body {
+  background: linear-gradient(120deg, #9de7fa 0%, #f89fba 100%);
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 2rem 0;
+}
+
+/* Form container styling */
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Headings and labels */
+h1, label {
+  color: #333;
+}
+
+/* Input and focus styling */
+.form-control {
+  border-color: #ccc;
+  transition: box-shadow 0.3s, border-color 0.3s;
+}
+
+.form-control:focus {
+  border-color: #f89fba;
+  box-shadow: 0 0 8px rgba(248, 159, 186, 0.5);
+}
+
+/* Submit button styling */
+.btn-primary {
+  background-color: #f89fba;
+  border-color: #f89fba;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #e37292;
+  border-color: #e37292;
+}
