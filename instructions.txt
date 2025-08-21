@@ -1,8 +1,31 @@
 THESE ARE INSTRUCTIONS FOR BUILDING A SIMPLE FORM-FILLER APP USING NODE.JS, BOOTSTRAP AND MONGODB
 
-step 1: Create a project folder and open that folder in your IDE or code editor
+Step 1: Create a project folder and open that folder in your IDE or code editor
 
 Step 2: Create an index.js file, which will be the entry point  of the APP
 
 Step 3: Install dependencies: express, mongoose and nodemon using npm command
         npm install express mongoose nodemon
+
+Step 4: Open index.js and add the code to create a simple express app
+
+Step 5: to run use nodemon index.js
+if that doesn't work, use npx nodemon index.js
+
+Step 6: Open your browser and use https://localhost to access the server itself
+
+Step 7:add exppress.json() and express.urlencoded() lines of code
+
+Step 8: create a dir public inside project folder
+
+Step 9: connect mongoose database
+
+step 10: define a post method
+
+Step 11: create index.html, formSubmitted.html and styles.css inside the publi folder
+
+Step 12: Start MongoDB using mongod
+     use command 'mongo' on another terminal
+
+Step 13: oppen your IDE/code editor, run the app and go to localhost
+
